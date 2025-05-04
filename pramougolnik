@@ -1,0 +1,9 @@
+a=float(input("Длина сторона а: "))
+b=float(input("длина стороны b: "))
+print("Для прямоугольника со сторонами " + str(a) + " "+ str(b) )
+p=2*float(a+b)
+p=str(p)
+print("периметр: " + p)
+s=a*b
+s=str(s)
+print("площадь: " + s)
